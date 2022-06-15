@@ -13,6 +13,7 @@ body
 {
 	max-height: 1200px;
 	margin: 0;
+	max-width: 720px;
 }
 .header-content
 {
