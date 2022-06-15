@@ -13,7 +13,6 @@ body
 {
 	max-height: 1200px;
 	margin: 0;
-	max-width: 720px;
 }
 .header-content
 {
@@ -43,7 +42,7 @@ body
 .image__cover-inner
 {
 	position: relative;
-	height: 720px;
+	height: 100%;
 }
 .image__cover
 {
