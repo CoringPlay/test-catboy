@@ -17,7 +17,7 @@
 const button = document.querySelector(".btn");
 const image = document.querySelector(".image__cover");
 const art = document.querySelector(".image__artist")
-const link = "https://api.waifu.pics/sfw/neko";
+const link = "https://api.waifu.pics/nsfw/blowjob";
 
 async function fetchHandler() {
   try {
