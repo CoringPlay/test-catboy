@@ -16,17 +16,15 @@
 
 const button = document.querySelector(".btn");
 const image = document.querySelector(".image__cover");
-const art = document.querySelector(".image__artist")
-const link = "https://api.waifu.pics/sfw/neko";
+const link = "https://api.catboys.com/img";
 
 async function fetchHandler() {
   try {
     const response = await fetch(link);
     const data = await response.json();
     image.src = data.url;
-    art.text = data.artist;
   } catch (error) {
-    console.log(error);
+    console.log('Возникли проблемы',error.message);
   }
 }
 
